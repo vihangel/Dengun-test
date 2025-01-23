@@ -1,0 +1,4 @@
+# @format
+
+include:
+  - .well-known/assetlinks.json
