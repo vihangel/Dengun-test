@@ -4,8 +4,8 @@
             "delegate_permission/common.handle_all_urls"
         ],
         "target": {
-            "namespace": "android_app",
-            "package_name": "com.ventusapp.ventusapp",
+            "namespace": "es.ventusapp.ventusapp",
+            "package_name": "es.ventusapp.ventusapp.stg",
             "sha256_cert_fingerprints": [
                 "35:50:04:B6:24:BF:F2:76:D6:86:F4:EC:B2:89:28:11:FF:25:FD:C2:AF:F8:7B:1F:DA:9F:AC:D8:7A:92:2C:12"
             ]
