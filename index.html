@@ -4,20 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ventus App</title>
+    <title>Ventus App - Deep Link Testing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #222;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Ventus App Deep Link Test</h1>
-    <p>Use the following links to test deep linking:</p>
+    <p>Click the links below to test the deep linking functionality:</p>
     <ul>
         <li>
-            <a href="ventusapp://ventus/event/20">Open Event 20 in App</a>
+            <a href="ventusapp://ventus/event/10">Open Event 10 in App</a>
         </li>
         <li>
             <a href="https://ventus.es/event/10">Open Event 10 via HTTP</a>
         </li>
     </ul>
+    <footer>
+        &copy; 2025 Ventus App. All rights reserved.
+    </footer>
 </body>
 
 </html>
